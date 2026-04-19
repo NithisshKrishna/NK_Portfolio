@@ -15,6 +15,10 @@ const navLinks = [
     name: "Testimonials",
     link: "#testimonials",
   },
+    {
+    name: "Blogs",
+    link: "#testimonials",
+  },
 ];
 
 const words = [
@@ -29,10 +33,10 @@ const words = [
 ];
 
 const counterItems = [
-  { value: 15, suffix: "+", label: "Years of Experience" },
-  { value: 200, suffix: "+", label: "Satisfied Clients" },
-  { value: 108, suffix: "+", label: "Completed Projects" },
-  { value: 90, suffix: "%", label: "Client Retention Rate" },
+  { value: 1, suffix: "+", label: "Years of Experience" },
+  { value: 8, suffix: "+", label: "AI/ML Solutions Developed" },
+  { value: 10, suffix: "+", label: "Completed Projects" },
+  { value: 3, suffix: "+", label: "Production-Level Systems" },
 ];
 
 const logoIconsList = [
@@ -81,6 +85,11 @@ const abilities = [
     imgPath: "/images/chat.png",
     title: "Reliable Communication",
     desc: "Keeping you updated at every step to ensure transparency and clarity.",
+  },
+  {
+    imgPath: "/images/time.png",
+    title: "On-Time Delivery",
+    desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
   },
   {
     imgPath: "/images/time.png",
@@ -143,6 +152,7 @@ const techStackIcons = [
     scale: 0.05,
     rotation: [0, -Math.PI / 4, 0],
   },
+
 ];
 
 const expCards = [

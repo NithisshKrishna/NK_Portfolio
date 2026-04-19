@@ -49,6 +49,19 @@ const AppShowcase = () => {
         <div className="showcaselayout">
           <div ref={rydeRef} className="first-project-wrapper">
             <div className="image-wrapper">
+              <img src="/images/Customer_proj.png" alt="Ryde App Interface" />
+            </div>
+            <div className="text-content">
+              <h2>
+                On-Demand Rides Made Simple with a Powerful, User-Friendly App
+                called Ryde
+              </h2>
+              <p className="text-white-50 md:text-xl">
+                An app built with React Native, Expo, & TailwindCSS for a fast,
+                user-friendly experience.
+              </p>
+            </div>
+            <div className="image-wrapper">
               <img src="/images/project1.png" alt="Ryde App Interface" />
             </div>
             <div className="text-content">
@@ -62,8 +75,29 @@ const AppShowcase = () => {
               </p>
             </div>
           </div>
+          
+
+          
 
           <div className="project-list-wrapper overflow-hidden">
+            <div className="project" ref={libraryRef}>
+              <div className="image-wrapper bg-[#FFEFDB]">
+                <img
+                  src="/images/ordinal_thumbnail.png"
+                  alt="Ordinal - A Mental Wellness App"
+                />
+              </div>
+              <h2>Ordinal - A Mental Wellness App</h2>
+            </div>
+
+            <div className="project" ref={ycDirectoryRef}>
+              <div className="image-wrapper bg-[#FFE7EB]">
+                <img src="/images/project3.png" alt="YC Directory App" />
+              </div>
+              <h2>YC Directory - A Startup Showcase App</h2>
+            </div>
+
+            
             <div className="project" ref={libraryRef}>
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img
@@ -73,13 +107,8 @@ const AppShowcase = () => {
               </div>
               <h2>The Library Management Platform</h2>
             </div>
+            
 
-            <div className="project" ref={ycDirectoryRef}>
-              <div className="image-wrapper bg-[#FFE7EB]">
-                <img src="/images/project3.png" alt="YC Directory App" />
-              </div>
-              <h2>YC Directory - A Startup Showcase App</h2>
-            </div>
           </div>
         </div>
       </div>
