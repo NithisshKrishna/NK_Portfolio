@@ -49,58 +49,164 @@ const AppShowcase = () => {
         <div className="showcaselayout">
           <div ref={rydeRef} className="first-project-wrapper">
             <div className="text-content">
-              <h2>
-                Customer Attrion Prediction
-              </h2>
-               <p className="text-white-50 md:text-xl"></p>
-              
+            <h2>
+              Customer Attrion Prediction
+            </h2>
+            <p className="text-white-50 md:text-xl"></p>
+          </div>
+
+          <div className="image-wrapper relative group overflow-hidden">
+            <img 
+              src="/images/Cust_.png" 
+              alt="Ryde App Interface"
+              className="w-full h-auto transition-transform duration-500 group-hover:scale-110"
+            />
+
+            {/* GitHub Hover Overlay */}
+            <div className="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <a 
+                href="https://github.com/NithisshKrishna/Customer-Attrition-Prediction" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="bg-white text-black px-4 py-2 rounded-full font-medium transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300 hover:bg-gray-200"
+              >
+                View Project on GitHub
+              </a>
             </div>
-            <div className="image-wrapper">
-              <img src="/images/Cust_" alt="Ryde App Interface" />
-            </div>
+          </div>
             <div className="text-content">
               <h2>
                 Professional Management Services Systems - ISSI
               </h2>
               <p className="text-white-50 md:text-xl"></p>
             </div>
-            <div className="image-wrapper">
-              <img src="/images/ISSI_" alt="Ryde App Interface" />
+
+            <div className="image-wrapper relative group overflow-hidden">
+              <img 
+                src="/images/ISSI_.png" 
+                alt="Ryde App Interface"
+                className="w-full h-auto transition-transform duration-500 group-hover:scale-110"
+              />
+
+              {/* GitHub Hover Overlay */}
+              <div className="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <a 
+                  href="https://github.com/yourusername/issi-project" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="bg-white text-black px-4 py-2 rounded-full font-medium transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300 hover:bg-gray-200"
+                >
+                  View Project
+                </a>
+              </div>
             </div>
-            
           </div>
           
 
           
 
           <div className="project-list-wrapper overflow-hidden">
-            <div className="project" ref={libraryRef}>
-              <div className="image-wrapper bg-[#FFEFDB]">
-                <img
-                  src="/images/ordinal_thumbnail.png"
-                  alt="Ordinal - A Mental Wellness App"
-                />
-              </div>
-              <h2>Ordinal - A Mental Wellness App</h2>
-            </div>
+            <div className="project px-2 sm:px-0" ref={libraryRef}>
+                <div className="image-wrapper bg-[#FFEFDB] relative group overflow-hidden rounded-lg">
+                  
+                  <img
+                    src="/images/ordinal_thumbnail.png"
+                    alt="Ordinal - A Mental Wellness App"
+                    className="w-full h-full object-cover transition-transform duration-500 sm:group-hover:scale-110"
+                  />
 
-            <div className="project" ref={ycDirectoryRef}>
-              <div className="image-wrapper bg-[#FFE7EB]">
-                <img src="public/images/bookstore_analytics_thumbnail (1).png" alt="YC Directory App" />
+                  {/* Overlay */}
+                  <div className="absolute inset-0 bg-black/40 flex items-center justify-center 
+                                  opacity-100 sm:opacity-0 sm:group-hover:opacity-100 
+                                  transition-opacity duration-300">
+                    
+                    <a 
+                      href="https://github.com/NithisshKrishna/Ordinal-" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="bg-white text-black px-4 py-2 sm:px-6 sm:py-2.5 
+                                text-sm sm:text-base rounded-full font-medium 
+                                transform sm:translate-y-4 sm:group-hover:translate-y-0 
+                                transition-transform duration-300 hover:bg-gray-200"
+                    >
+                      View Project on GitHub
+                    </a>
+                  </div>
+                </div>
+
+                <h2>
+                  Ordinal - A Mental Wellness App
+                </h2>
               </div>
-              <h2>Bookstore Analytics - Tableau</h2>
-            </div>
+
+              <div className="project px-2 sm:px-0" ref={libraryRef}>
+                <div className="image-wrapper bg-[#FFE7EB] relative group overflow-hidden rounded-lg">
+                  
+                  <img
+                    src="images/Bookstore_analytics.png"
+                    alt="Ordinal - A Mental Wellness App"
+                    className="w-full h-full object-cover transition-transform duration-500 sm:group-hover:scale-110"
+                  />
+
+                  {/* Overlay */}
+                  <div className="absolute inset-0 bg-black/40 flex items-center justify-center 
+                                  opacity-100 sm:opacity-0 sm:group-hover:opacity-100 
+                                  transition-opacity duration-300">
+                    
+                    <a 
+                      href="https://github.com/NithisshKrishna/-Bookstore-Analytics-case" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="bg-white text-black px-4 py-2 sm:px-6 sm:py-2.5 
+                                text-sm sm:text-base rounded-full font-medium 
+                                transform sm:translate-y-4 sm:group-hover:translate-y-0 
+                                transition-transform duration-300 hover:bg-gray-200"
+                    >
+                      View Project on GitHub
+                    </a>
+                  </div>
+                </div>
+
+                <h2>
+                  Bookstore Analytics - Tableau
+                </h2>
+              </div>
+
 
             
-            <div className="project" ref={libraryRef}>
-              <div className="image-wrapper bg-[#FFEFDB]">
-                <img
-                  src="/images/Mush_"
-                  alt="Library Management Platform"
-                />
+            <div className="project px-2 sm:px-0" ref={libraryRef}>
+                <div className="image-wrapper bg-[#FFEFDB] relative group overflow-hidden rounded-lg">
+                  
+                  <img
+                    src="images/Mush_.png"
+                    alt="Ordinal - A Mental Wellness App"
+                    className="w-full h-full object-cover transition-transform duration-500 sm:group-hover:scale-110"
+                  />
+
+                  {/* Overlay */}
+                  <div className="absolute inset-0 bg-black/40 flex items-center justify-center 
+                                  opacity-100 sm:opacity-0 sm:group-hover:opacity-100 
+                                  transition-opacity duration-300">
+                    
+                    <a 
+                      href="https://github.com/NithisshKrishna/Mush_Project" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="bg-white text-black px-4 py-2 sm:px-6 sm:py-2.5 
+                                text-sm sm:text-base rounded-full font-medium 
+                                transform sm:translate-y-4 sm:group-hover:translate-y-0 
+                                transition-transform duration-300 hover:bg-gray-200"
+                    >
+                      View Project on GitHub
+                    </a>
+                  </div>
+                </div>
+
+                <h2>
+                  Mushroom Classification
+                </h2>
               </div>
-              <h2>Mushroom Classification</h2>
-            </div>
+
 
 
             
