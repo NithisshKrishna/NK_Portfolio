@@ -13,7 +13,7 @@
 
   <h3 align="center">Interactive 3D Portfolio Website</h3>
 
-
+</div>
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
