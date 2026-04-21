@@ -96,7 +96,7 @@ const AppShowcase = () => {
                   rel="noopener noreferrer"
                   className="bg-white text-black px-4 py-2 rounded-full font-medium transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300 hover:bg-gray-200"
                 >
-                  View Project on my comapny website
+                  View Project on ISSI Website
                 </a>
               </div>
             </div>
