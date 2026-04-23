@@ -14,9 +14,10 @@ const App = () => (
     <Navbar />
     <Hero />
     <ShowcaseSection />
-    <LogoShowcase />
-    <FeatureCards />
+   
+   
     <Experience />
+    <LogoShowcase />
     <TechStack />
     <Testimonials />
     <Contact />

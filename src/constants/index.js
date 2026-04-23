@@ -78,23 +78,33 @@ const logoIconsList = [
 const abilities = [
   {
     imgPath: "/images/seo.png",
-    title: "Quality Focus",
-    desc: "Delivering high-quality results while maintaining attention to every detail.",
+    title: "Programming Languages",
+    desc: "• Python\n• R\n• SQL\n• Matlab\n• C++",
   },
   {
-    imgPath: "/images/chat.png",
-    title: "Reliable Communication",
-    desc: "Keeping you updated at every step to ensure transparency and clarity.",
+    imgPath: "/images/seo.png",
+    title: "Data Analysis & Visualization",
+    desc: "• Exploratory & Statistical Analysis\n• Tableau & Power BI\n• Excel, Matplotlib & Plotly",
   },
   {
-    imgPath: "/images/time.png",
-    title: "On-Time Delivery",
-    desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
+    imgPath: "/images/seo.png",
+    title: "Machine Learning & AI",
+    desc: "• Feature Engineering\n• Deep Learning\n• Natural Language Processing\n• Time Series Analysis",
   },
   {
-    imgPath: "/images/time.png",
-    title: "On-Time Delivery",
-    desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
+    imgPath: "/images/seo.png",
+    title: "Libraries & Frameworks",
+    desc: "• Pandas & NumPy\n• Scikit-learn\n• PyTorch & Keras\n• Django",
+  },
+  {
+    imgPath: "/images/seo.png",
+    title: "Databases & Tools",
+    desc: "• PostgreSQL\n• Git\n• Docker",
+  },
+  {
+    imgPath: "/images/seo.png",
+    title: "Statistical & Predictive Modeling",
+    desc: "• Statistical Methods\n• Predictive Modeling\n• Data-driven Insights\n• Model Evaluation",
   },
 ];
 
@@ -157,15 +167,15 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
+    review: "International Software Systems Inc.",
     imgPath: "/images/exp1.png",
     logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
-    date: "January 2023 - Present",
+    title: "Machine Learning Intern",
+    date: "March 2026 - Present",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
+      "Enhancing the Professional Services Management System (PSMS) by integrating AI modules for automated resume parsing, semantic candidate matching, and intelligent query handling",
+      "Implementing retrieval-augmented generation (RAG) pipelines with embeddings, FAISS, and LLMs to provide context-aware recommendations and human-readable explanations for staffing decisions.",
+      "Extending Django backend and data models to support structured candidate data, real-time AI insights, and secure, scalable workflows while maintaining system reliability.",
     ],
   },
   {
@@ -175,9 +185,9 @@ const expCards = [
     title: "Full Stack Developer",
     date: "June 2020 - December 2023",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
+      "Enhancing the Professional Services Management System (PSMS) by integrating AI modules for automated resume parsing, semantic candidate matching, and intelligent query handling",
+      "Implementing retrieval-augmented generation (RAG) pipelines with embeddings, FAISS, and LLMs to provide context-aware recommendations and human-readable explanations for staffing decisions.",
+      "Extending Django backend and data models to support structured candidate data, real-time AI insights, and secure, scalable workflows while maintaining system reliability.",
     ],
   },
   {

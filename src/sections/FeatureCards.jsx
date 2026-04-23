@@ -12,7 +12,11 @@ const FeatureCards = () => (
             <img src={imgPath} alt={title} />
           </div>
           <h3 className="text-white text-2xl font-semibold mt-2">{title}</h3>
-          <p className="text-white-50 text-lg">{desc}</p>
+          <ul className="text-white-50 text-lg list-disc pl-5 space-y-1">
+            {desc.split("\n").map((item, index) => (
+              <li key={index}>{item.replace("• ", "")}</li>
+            ))}
+          </ul>
         </div>
       ))}
     </div>

@@ -47,7 +47,7 @@ const AppShowcase = () => {
     <div id="work" ref={sectionRef} className="app-showcase">
       <div className="w-full">
         <div className="showcaselayout">
-          <div ref={rydeRef} className="first-project-wrapper">
+          <div ref={rydeRef} className="first-project-wrapper ">
             <div className="text-content">
             <h2>
               Customer Attrion Prediction
@@ -55,11 +55,11 @@ const AppShowcase = () => {
             <p className="text-white-50 md:text-xl"></p>
           </div>
 
-          <div className="image-wrapper relative group overflow-hidden">
+          <div className="image-wrapper relative group overflow-hidden flex items-center justify-center">
             <img 
               src="/images/Cust_.png" 
               alt="Ryde App Interface"
-              className="w-full h-auto transition-transform duration-500 group-hover:scale-110"
+              className="w-full h-full object-contain scale-110 object-center transition-transform duration-500 group-hover:scale-125"
             />
 
             {/* GitHub Hover Overlay */}
@@ -85,7 +85,7 @@ const AppShowcase = () => {
               <img 
                 src="/images/ISSI_.png" 
                 alt="Ryde App Interface"
-                className="w-full h-auto transition-transform duration-500 group-hover:scale-110"
+                className="w-full h-full object-contain scale-110 object-center transition-transform duration-500 group-hover:scale-125"
               />
 
               {/* GitHub Hover Overlay */}
