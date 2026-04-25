@@ -168,9 +168,9 @@ const techStackIcons = [
 const expCards = [
   {
     review: "International Software Systems Inc.",
-    imgPath: "/images/exp1.png",
-    logoPath: "/images/logo1.png",
-    title: "Machine Learning Intern",
+    imgPath: "/images/ISSI.webp",
+    logoPath: "/images/ISSI.webp",
+    title: "AI & Machine Learning Intern",
     date: "March 2026 - Present",
     responsibilities: [
       "Enhancing the Professional Services Management System (PSMS) by integrating AI modules for automated resume parsing, semantic candidate matching, and intelligent query handling",
@@ -179,11 +179,11 @@ const expCards = [
     ],
   },
   {
-    review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-    imgPath: "/images/exp2.png",
-    logoPath: "/images/logo2.png",
-    title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+    review: "International Software Systems Inc.",
+    imgPath: "/images/ISSI.webp",
+    logoPath: "/images/ISSI.webp",
+    title: "Data Analysis Intern",
+    date: "June 2025 - August 2025",
     responsibilities: [
       "Enhancing the Professional Services Management System (PSMS) by integrating AI modules for automated resume parsing, semantic candidate matching, and intelligent query handling",
       "Implementing retrieval-augmented generation (RAG) pipelines with embeddings, FAISS, and LLMs to provide context-aware recommendations and human-readable explanations for staffing decisions.",
@@ -191,18 +191,59 @@ const expCards = [
     ],
   },
   {
-    review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-    imgPath: "/images/exp3.png",
-    logoPath: "/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
+    review: "Engineering Monk",
+    imgPath: "/images/EM.png",
+    logoPath: "/images/EM.png",
+    title: "Machine Learning Intern",
+    date: "January 2023 - March 2023",
     responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
+      "Developed and optimized end-to-end machine learning pipelines, collaborating with cross-functional team members to integrate models into production-ready, real-world applications.",
+      "Supported data preprocessing, model deployment, and project execution using Agile methodologies to improve workflow efficiency, collaboration, and timely delivery of machine learning solutions.",
+      
     ],
   },
 ];
+
+const eduCards = [
+  {
+    review: "State University of New York at Buffalo",
+    imgPath: "/images/ISSI.webp",
+    logoPath: "/images/ISSI.webp",
+    title: "AI & Machine Learning Intern",
+    date: "March 2026 - Present",
+    responsibilities: [
+      "Enhancing the Professional Services Management System (PSMS) by integrating AI modules for automated resume parsing, semantic candidate matching, and intelligent query handling",
+      "Implementing retrieval-augmented generation (RAG) pipelines with embeddings, FAISS, and LLMs to provide context-aware recommendations and human-readable explanations for staffing decisions.",
+      "Extending Django backend and data models to support structured candidate data, real-time AI insights, and secure, scalable workflows while maintaining system reliability.",
+    ],
+  },
+  {
+    review: "International Software Systems Inc.",
+    imgPath: "/images/ISSI.webp",
+    logoPath: "/images/ISSI.webp",
+    title: "Data Analysis Intern",
+    date: "June 2025 - August 2025",
+    responsibilities: [
+      "Enhancing the Professional Services Management System (PSMS) by integrating AI modules for automated resume parsing, semantic candidate matching, and intelligent query handling",
+      "Implementing retrieval-augmented generation (RAG) pipelines with embeddings, FAISS, and LLMs to provide context-aware recommendations and human-readable explanations for staffing decisions.",
+      "Extending Django backend and data models to support structured candidate data, real-time AI insights, and secure, scalable workflows while maintaining system reliability.",
+    ],
+  },
+  {
+    review: "Engineering Monk",
+    imgPath: "/images/EM.png",
+    logoPath: "/images/EM.png",
+    title: "Machine Learning Intern",
+    date: "January 2023 - March 2023",
+    responsibilities: [
+      "Developed and optimized end-to-end machine learning pipelines, collaborating with cross-functional team members to integrate models into production-ready, real-world applications.",
+      "Supported data preprocessing, model deployment, and project execution using Agile methodologies to improve workflow efficiency, collaboration, and timely delivery of machine learning solutions.",
+      
+    ],
+  },
+];
+
+
 
 const expLogos = [
   {
@@ -289,6 +330,7 @@ export {
   logoIconsList,
   counterItems,
   expCards,
+  eduCards,
   expLogos,
   testimonials,
   socialImgs,
