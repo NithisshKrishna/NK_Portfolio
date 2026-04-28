@@ -12,13 +12,10 @@ const navLinks = [
     link: "#skills",
   },
   {
-    name: "Testimonials",
-    link: "#testimonials",
-  },
-    {
     name: "Blogs",
     link: "#testimonials",
   },
+  
 ];
 
 const words = [
@@ -207,39 +204,25 @@ const expCards = [
 const eduCards = [
   {
     review: "State University of New York at Buffalo",
-    imgPath: "/images/ISSI.webp",
-    logoPath: "/images/ISSI.webp",
-    title: "AI & Machine Learning Intern",
-    date: "March 2026 - Present",
+    imgPath: "/images/UB.png",
+    logoPath: "/images/UB.png",
+    title: "MS in Engineering Science - Data Science",
+    date: "August 2024 - January 2026",
     responsibilities: [
-      "Enhancing the Professional Services Management System (PSMS) by integrating AI modules for automated resume parsing, semantic candidate matching, and intelligent query handling",
-      "Implementing retrieval-augmented generation (RAG) pipelines with embeddings, FAISS, and LLMs to provide context-aware recommendations and human-readable explanations for staffing decisions.",
-      "Extending Django backend and data models to support structured candidate data, real-time AI insights, and secure, scalable workflows while maintaining system reliability.",
-    ],
+  "Completed Master of Science in Engineering Science (Data Science) at University at Buffalo, gaining strong foundations in machine learning, data engineering, and AI systems",
+  "Maintained a CGPA of 3.74/4.0 while applying data science and software engineering concepts through academic coursework and real-world projects"
+   ],
   },
   {
-    review: "International Software Systems Inc.",
-    imgPath: "/images/ISSI.webp",
-    logoPath: "/images/ISSI.webp",
-    title: "Data Analysis Intern",
-    date: "June 2025 - August 2025",
+    review: "Rajalakshmi Engineering College",
+    imgPath: "/images/REC.png",
+    logoPath: "/images/REC.png",
+    title: "B.Tech in Artificial Intelligence and Machine Learning",
+    date: "August 2020 - May 2024",
     responsibilities: [
-      "Enhancing the Professional Services Management System (PSMS) by integrating AI modules for automated resume parsing, semantic candidate matching, and intelligent query handling",
-      "Implementing retrieval-augmented generation (RAG) pipelines with embeddings, FAISS, and LLMs to provide context-aware recommendations and human-readable explanations for staffing decisions.",
-      "Extending Django backend and data models to support structured candidate data, real-time AI insights, and secure, scalable workflows while maintaining system reliability.",
-    ],
-  },
-  {
-    review: "Engineering Monk",
-    imgPath: "/images/EM.png",
-    logoPath: "/images/EM.png",
-    title: "Machine Learning Intern",
-    date: "January 2023 - March 2023",
-    responsibilities: [
-      "Developed and optimized end-to-end machine learning pipelines, collaborating with cross-functional team members to integrate models into production-ready, real-world applications.",
-      "Supported data preprocessing, model deployment, and project execution using Agile methodologies to improve workflow efficiency, collaboration, and timely delivery of machine learning solutions.",
-      
-    ],
+  "Completed Bachelor of Technology in Artificial Intelligence and Machine Learning, building strong foundations in machine learning, deep learning, and data structures",
+  "Maintained a CGPA of 8.85/10 while actively working on academic projects and applying AI/ML concepts to real-world problem-solving"
+   ],
   },
 ];
 
@@ -262,27 +245,27 @@ const expLogos = [
 
 const testimonials = [
   {
-    name: "Esther Howard",
-    mentions: "@estherhoward",
+    name: "Nithisshkrishna",
+    mentions: "@nithissh683",
     review:
-      "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
+    "Ever wondered what's actually happening when ChatGPT answers you? It all comes down to one breakthrough technology — the Transformer. In my latest blog, I break down how it works using simple, everyday analogies. No jargon, no math — just clear explanations anyone can understand.\nHave a look — <a href=\"https://medium.com/@nithissh683/how-transformers-rewired-ai-the-architecture-behind-every-modern-llm-a4783a6f1900\" target=\"_blank\" rel=\"noreferrer\">click here</a>",
     imgPath: "/images/client1.png",
   },
   {
-    name: "Wade Warren",
-    mentions: "@wadewarren",
+    name: "Nithisshkrishna",
+    mentions: "@nithissh683",
     review:
       "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
-    imgPath: "/images/client3.png",
+    imgPath: "/images/client1.png",
   },
   {
-    name: "Guy Hawkins",
-    mentions: "@guyhawkins",
+    name: "Nithisshkrishna",
+    mentions: "@nithissh683",
     review:
       "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    imgPath: "/images/client2.png",
+    imgPath: "/images/client1.png",
   },
-  {
+  /*{
     name: "Marvin McKinney",
     mentions: "@marvinmckinney",
     review:
@@ -302,7 +285,7 @@ const testimonials = [
     review:
       "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
     imgPath: "/images/client6.png",
-  },
+  },*/
 ];
 
 const socialImgs = [

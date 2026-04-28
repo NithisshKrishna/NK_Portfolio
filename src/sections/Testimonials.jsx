@@ -7,8 +7,8 @@ const Testimonials = () => {
     <section id="testimonials" className="flex-center section-padding">
       <div className="w-full h-full md:px-10 px-5">
         <TitleHeader
-          title="What People Say About Me?"
-          sub="⭐️ Customer feedback highlights"
+          title="What I’ve Been Writing"
+          sub="⭐️ Got time to Read my Blogs?"
         />
 
         <div className="lg:columns-3 md:columns-2 columns-1 mt-16">
@@ -19,6 +19,7 @@ const Testimonials = () => {
                   <img src={testimonial.imgPath} alt="" />
                 </div>
                 <div>
+                  
                   <p className="font-bold">{testimonial.name}</p>
                   <p className="text-white-50">{testimonial.mentions}</p>
                 </div>
