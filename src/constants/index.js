@@ -74,12 +74,12 @@ const logoIconsList = [
 
 const abilities = [
   {
-    imgPath: "/images/seo.png",
+    imgPath: "/images/seo1.png",
     title: "Programming Languages",
     desc: "• Python\n• R\n• SQL\n• Matlab\n• C++",
   },
   {
-    imgPath: "/images/seo.png",
+    imgPath: "/images/seo2.png",
     title: "Data Analysis & Visualization",
     desc: "• Exploratory & Statistical Analysis\n• Tableau & Power BI\n• Excel, Matplotlib & Plotly",
   },
@@ -89,17 +89,17 @@ const abilities = [
     desc: "• Feature Engineering\n• Deep Learning\n• Natural Language Processing\n• Time Series Analysis",
   },
   {
-    imgPath: "/images/seo.png",
+    imgPath: "/images/seo4.jpg",
     title: "Libraries & Frameworks",
     desc: "• Pandas & NumPy\n• Scikit-learn\n• PyTorch & Keras\n• Django",
   },
   {
-    imgPath: "/images/seo.png",
+    imgPath: "/images/seo5.png",
     title: "Databases & Tools",
     desc: "• PostgreSQL\n• Git\n• Docker",
   },
   {
-    imgPath: "/images/seo.png",
+    imgPath: "/images/seo6.png",
     title: "Statistical & Predictive Modeling",
     desc: "• Statistical Methods\n• Predictive Modeling\n• Data-driven Insights\n• Model Evaluation",
   },
