@@ -42,11 +42,24 @@ const NavBar = () => {
           </ul>
         </nav>
 
+       <div className="actions">
+        <a 
+          href="https://drive.google.com/file/d/1gPXweA65jiXn6P58-lWPa-uJMPvnzvoe/view?usp=sharing" 
+          target="_blank"
+          rel="noopener noreferrer"
+          className="contact-btn group"
+        >
+          <div className="inner">
+            <span>Resume</span>
+          </div>
+        </a>
+
         <a href="#contact" className="contact-btn group">
           <div className="inner">
             <span>Contact me</span>
           </div>
         </a>
+      </div>
       </div>
     </header>
   );

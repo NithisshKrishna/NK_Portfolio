@@ -248,21 +248,21 @@ const testimonials = [
     name: "Nithisshkrishna",
     mentions: "@nithissh683",
     review:
-    "Ever wondered what's actually happening when ChatGPT answers you? It all comes down to one breakthrough technology — the Transformer. In my latest blog, I break down how it works using simple, everyday analogies. No jargon, no math — just clear explanations anyone can understand.\nHave a look — <a href=\"https://medium.com/@nithissh683/how-transformers-rewired-ai-the-architecture-behind-every-modern-llm-a4783a6f1900\" target=\"_blank\" rel=\"noreferrer\">click here</a>",
+    "Ever wondered what's actually happening when ChatGPT answers you? It all comes down to one breakthrough technology — the Transformer. In my latest blog, I break down how it works using simple, everyday analogies. No jargon, no math — just clear explanations anyone can understand.<br><br/>Have a look — <a href=\"https://medium.com/@nithissh683/how-transformers-rewired-ai-the-architecture-behind-every-modern-llm-a4783a6f1900\" target=\"_blank\" rel=\"noreferrer\">click here</a>",
     imgPath: "/images/client1.png",
   },
   {
     name: "Nithisshkrishna",
     mentions: "@nithissh683",
     review:
-      "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
+      "A general AI knows a lot — but it doesn't know your business. So how do we fix that? In my second blog, I break down Fine-Tuning vs RAG in the simplest way possible, with real-life analogies anyone can understand. No tech background needed.<br><br/>Have a look — <a href=\"https://medium.com/@nithissh683/fine-tuning-vs-rag-two-ways-to-make-llms-actually-useful-2bb542acc771\" target=\"_blank\" rel=\"noreferrer\">click here</a>",
     imgPath: "/images/client1.png",
   },
   {
     name: "Nithisshkrishna",
     mentions: "@nithissh683",
     review:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Most people use AI like a search engine — and wonder why they get average answers. The secret? It's all in how you ask. In my third blog, I break down Prompt Engineering and Temperature in the simplest way possible so anyone can get better results from AI — starting today. <br><br/>Have a look — <a href=\"https://medium.com/@nithissh683/45d5719b2961\" target=\"_blank\" rel=\"noreferrer\">click here</a>",
     imgPath: "/images/client1.png",
   },
   /*{
@@ -290,20 +290,19 @@ const testimonials = [
 
 const socialImgs = [
   {
-    name: "insta",
-    imgPath: "/images/insta.png",
+    name: "Github",
+    imgPath: "/images/github.png",
+    url: "https://github.com/NithisshKrishna",
   },
   {
-    name: "fb",
-    imgPath: "/images/fb.png",
-  },
-  {
-    name: "x",
-    imgPath: "/images/x.png",
+    name: "medium",
+    imgPath: "/images/medium.png",
+    url: "https://medium.com/@nithissh683",
   },
   {
     name: "linkedin",
-    imgPath: "/images/linkedin.png",
+    imgPath: "/images/linkedin (1) (2).png",
+    url: "https://www.linkedin.com/in/nithisshkrishna/",
   },
 ];
 
