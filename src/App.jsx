@@ -16,9 +16,9 @@ const App = () => (
     <Hero />
     <ShowcaseSection />
    
-   
+    
     <Experience />
-    <EduExperience /> 
+   
     
     <TechStack />
     <Testimonials />

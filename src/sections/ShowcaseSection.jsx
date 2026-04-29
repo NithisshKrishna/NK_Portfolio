@@ -12,14 +12,12 @@ const AppShowcase = () => {
   const ycDirectoryRef = useRef(null);
 
   useGSAP(() => {
-    // Animation for the main section
     gsap.fromTo(
       sectionRef.current,
       { opacity: 0 },
       { opacity: 1, duration: 1.5 }
     );
 
-    // Animations for each app showcase
     const cards = [rydeRef.current, libraryRef.current, ycDirectoryRef.current];
 
     cards.forEach((card, index) => {
@@ -57,12 +55,11 @@ const AppShowcase = () => {
 
           <div className="image-wrapper relative group overflow-hidden flex items-center justify-center">
             <img 
-              src="/images/Cust_.png" 
+              src={`${import.meta.env.BASE_URL}images/Cust_.png`}
               alt="Ryde App Interface"
               className="w-full h-full object-contain scale-110 object-center transition-transform duration-500 group-hover:scale-125"
             />
 
-            {/* GitHub Hover Overlay */}
             <div className="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
               <a 
                 href="https://github.com/NithisshKrishna/Customer-Attrition-Prediction" 
@@ -83,12 +80,11 @@ const AppShowcase = () => {
 
             <div className="image-wrapper relative group overflow-hidden">
               <img 
-                src="/images/ISSI_.png" 
+                src={`${import.meta.env.BASE_URL}images/ISSI_.png`}
                 alt="Ryde App Interface"
                 className="w-full h-full object-contain scale-110 object-center transition-transform duration-500 group-hover:scale-125"
               />
 
-              {/* GitHub Hover Overlay */}
               <div className="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <a 
                   href="https://www.issi-software.com/Products/ProductInfo/18" 
@@ -103,23 +99,18 @@ const AppShowcase = () => {
           </div>
           
 
-          
-
           <div className="project-list-wrapper overflow-hidden">
             <div className="project px-2 sm:px-0" ref={libraryRef}>
                 <div className="image-wrapper bg-[#FFEFDB] relative group overflow-hidden rounded-lg">
-                  
                   <img
-                    src="/images/ordinal_thumbnail.png"
+                    src={`${import.meta.env.BASE_URL}images/ordinal_thumbnail.png`}
                     alt="Ordinal - A Mental Wellness App"
                     className="w-full h-full object-cover transition-transform duration-500 sm:group-hover:scale-110"
                   />
 
-                  {/* Overlay */}
                   <div className="absolute inset-0 bg-black/40 flex items-center justify-center 
                                   opacity-100 sm:opacity-0 sm:group-hover:opacity-100 
                                   transition-opacity duration-300">
-                    
                     <a 
                       href="https://github.com/NithisshKrishna/Ordinal-" 
                       target="_blank" 
@@ -141,18 +132,15 @@ const AppShowcase = () => {
 
               <div className="project px-2 sm:px-0" ref={libraryRef}>
                 <div className="image-wrapper bg-[#FFE7EB] relative group overflow-hidden rounded-lg">
-                  
                   <img
-                    src="images/Bookstore_analytics.png"
+                    src={`${import.meta.env.BASE_URL}images/Bookstore_analytics.png`}
                     alt="Ordinal - A Mental Wellness App"
                     className="w-full h-full object-cover transition-transform duration-500 sm:group-hover:scale-110"
                   />
 
-                  {/* Overlay */}
                   <div className="absolute inset-0 bg-black/40 flex items-center justify-center 
                                   opacity-100 sm:opacity-0 sm:group-hover:opacity-100 
                                   transition-opacity duration-300">
-                    
                     <a 
                       href="https://github.com/NithisshKrishna/-Bookstore-Analytics-case" 
                       target="_blank" 
@@ -176,18 +164,15 @@ const AppShowcase = () => {
             
             <div className="project px-2 sm:px-0" ref={libraryRef}>
                 <div className="image-wrapper bg-[#FFEFDB] relative group overflow-hidden rounded-lg">
-                  
                   <img
-                    src="images/Mush_.png"
+                    src={`${import.meta.env.BASE_URL}images/Mush_.png`}
                     alt="Ordinal - A Mental Wellness App"
                     className="w-full h-full object-cover transition-transform duration-500 sm:group-hover:scale-110"
                   />
 
-                  {/* Overlay */}
                   <div className="absolute inset-0 bg-black/40 flex items-center justify-center 
                                   opacity-100 sm:opacity-0 sm:group-hover:opacity-100 
                                   transition-opacity duration-300">
-                    
                     <a 
                       href="https://github.com/NithisshKrishna/Mush_Project" 
                       target="_blank" 
@@ -206,11 +191,6 @@ const AppShowcase = () => {
                   Mushroom Classification
                 </h2>
               </div>
-
-
-
-            
-
           </div>
         </div>
       </div>
